@@ -7,7 +7,7 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page290/ma
 WORKDIR /var/www/html
 RUN unzip maria-ferrero.zip
 RUN rm -rf maria-ferrero.zip &&\
- cp -rf maria-ferrero/* . &&\
- rm -rf maria-ferrero 
+ cp -rf One-Page-Portfolio-Template-master/* . &&\
+ rm -rf One-Page-Portfolio-Template-master 
 EXPOSE 80
 CMD ["usr/sbin/httpd", "-D", "FOREGROUND"]
